@@ -1,0 +1,9 @@
+{
+"name": "My To-Do App",
+"short_name": "My Tasks",
+"description": "My personal task manager app",
+"start_url": "./index.html",
+"display": "standalone",
+"background_color": "#101827",
+"theme_color": "#6366f1"
+}

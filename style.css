@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  }
+
+body {
+margin: 0;
+min-height: 100vh;
+font-family: Arial, sans-serif;
+background: linear-gradient(135deg, #101827, #253858);
+color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+.app {
+width: 100%;
+max-width: 500px;
+background: #1e293b;
+padding: 30px;
+border-radius: 20px;
+box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+margin-top: 0;
+font-size: 30px;
+}
+
+p {
+color: #cbd5e1;
+}
+
+.input-area {
+display: flex;
+gap: 10px;
+margin-top: 25px;
+}
+
+input {
+flex: 1;
+min-width: 0;
+padding: 12px;
+border: 1px solid #475569;
+border-radius: 8px;
+background: #0f172a;
+color: white;
+font-size: 15px;
+}
+
+button {
+padding: 12px 16px;
+background: #6366f1;
+color: white;
+border: none;
+border-radius: 8px;
+cursor: pointer;
+font-weight: bold;
+}
+
+button:hover {
+background: #4f46e5;
+}
+
+#taskList {
+list-style: none;
+padding: 0;
+margin-top: 20px;
+}
+
+#taskList li {
+background: #334155;
+padding: 12px;
+margin-bottom: 10px;
+border-radius: 8px;
+overflow-wrap: anywhere;
+}
+
+.footer {
+text-align: center;
+margin-top: 25px;
+font-size: 13px;
+}
